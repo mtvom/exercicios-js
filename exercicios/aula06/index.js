@@ -18,12 +18,13 @@ export function filtrarAprovados(alunos) {
 
 // Exercício 3 — extrairNomes
 export function extrairNomes(alunos) {
-  // escreva seu código aqui
+  const nomes = alunos.map((aluno) => aluno.nome);
+  return nomes;
 }
 
 // Exercício 4 — buscarAluno
 export function buscarAluno(alunos, nome) {
-  // escreva seu código aqui
+  
 }
 
 // Exercício 5 — calcularMedia
