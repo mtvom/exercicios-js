@@ -40,7 +40,14 @@ export function verificarAprovacao(nota) {
 
 // Exercício 4 — somarPares
 export function somarPares(numeros) {
-  // escreva seu código aqui
+  let soma = 0;
+
+  for (const numero of numeros){
+    if (numero % 2 ===0){
+      soma = numero + soma;
+    }
+  }
+  return soma;
 }
 
 // Exercício 5 — contarLetra
