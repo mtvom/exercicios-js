@@ -19,7 +19,10 @@ export function jsonParaObjeto(texto) {
 
 // Exercício 3 — clonarObjeto
 export function clonarObjeto(objeto) {
-  // escreva seu código aqui
+  const original = JSON.stringify(objeto);
+  const clone = JSON.stringify(objeto);
+
+  return JSON.parse(clone);
 }
 
 // ──────────────────────────────────────────────────
@@ -36,7 +39,7 @@ function simularConsulta(id) {
 
 // Exercício 4 — buscarDados
 export async function buscarDados(id) {
-  // escreva seu código aqui
+  
 }
 
 // Exercício 5 — dividirSeguro
