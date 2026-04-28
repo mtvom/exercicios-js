@@ -1,4 +1,3 @@
-# Exercícios de JavaScript
 
 Repositório de exercícios da disciplina **Desenvolvimento Web** — IFNMG Campus Salinas.
 
