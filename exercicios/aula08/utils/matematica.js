@@ -17,7 +17,7 @@ export function multiplicar(a, b) {
 }
 
 export function dividir(a, b) {
-  if (b>0){
+  if (b!=0){
     return a/b;
   }
   else{
