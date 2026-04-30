@@ -5,9 +5,10 @@
 // Rode os testes com: npx vitest run exercicios/aula08
 // Não mexa no arquivo index.test.js.
 
+
 // 1. Importe as funções nomeadas de './utils/matematica.js'
 
-// escreva o import aqui
+
 
 // 2. Importe a função default de './utils/texto.js'
 
